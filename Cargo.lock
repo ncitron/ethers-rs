@@ -597,7 +597,7 @@ dependencies = [
  "k256",
  "lazy_static",
  "serde",
- "sha2 0.10.3",
+ "sha2 0.10.5",
  "thiserror",
 ]
 
@@ -614,7 +614,7 @@ dependencies = [
  "hmac 0.12.1",
  "pbkdf2 0.11.0",
  "rand 0.8.5",
- "sha2 0.10.3",
+ "sha2 0.10.5",
  "thiserror",
 ]
 
@@ -634,7 +634,7 @@ dependencies = [
  "ripemd",
  "serde",
  "serde_derive",
- "sha2 0.10.3",
+ "sha2 0.10.5",
  "sha3",
  "thiserror",
 ]
@@ -1157,7 +1157,7 @@ dependencies = [
  "scrypt",
  "serde",
  "serde_json",
- "sha2 0.10.3",
+ "sha2 0.10.5",
  "sha3",
  "thiserror",
  "uuid 0.8.2",
@@ -1451,7 +1451,7 @@ dependencies = [
  "rusoto_kms",
  "semver",
  "serde_json",
- "sha2 0.10.3",
+ "sha2 0.10.5",
  "spki",
  "tempfile",
  "thiserror",
@@ -1489,7 +1489,7 @@ dependencies = [
  "semver",
  "serde",
  "serde_json",
- "sha2 0.10.3",
+ "sha2 0.10.5",
  "solang-parser",
  "svm-rs",
  "svm-rs-builds",
@@ -2185,7 +2185,7 @@ dependencies = [
  "cfg-if 1.0.0",
  "ecdsa",
  "elliptic-curve",
- "sha2 0.10.3",
+ "sha2 0.10.5",
  "sha3",
 ]
 
@@ -2516,7 +2516,7 @@ checksum = "51f44edd08f51e2ade572f141051021c5af22677e42b7dd28a88155151c33594"
 dependencies = [
  "ecdsa",
  "elliptic-curve",
- "sha2 0.10.3",
+ "sha2 0.10.5",
 ]
 
 [[package]]
@@ -2527,7 +2527,7 @@ checksum = "70723b6e03216e79df3765a7e4cdf39746c4a2392ba4bdb458111a939494cc1d"
 dependencies = [
  "ecdsa",
  "elliptic-curve",
- "sha2 0.10.3",
+ "sha2 0.10.5",
 ]
 
 [[package]]
@@ -2641,7 +2641,7 @@ dependencies = [
  "digest 0.10.3",
  "hmac 0.12.1",
  "password-hash 0.3.2",
- "sha2 0.10.3",
+ "sha2 0.10.5",
 ]
 
 [[package]]
@@ -2653,7 +2653,7 @@ dependencies = [
  "digest 0.10.3",
  "hmac 0.12.1",
  "password-hash 0.4.2",
- "sha2 0.10.3",
+ "sha2 0.10.5",
 ]
 
 [[package]]
@@ -3378,7 +3378,7 @@ dependencies = [
  "hmac 0.12.1",
  "pbkdf2 0.11.0",
  "salsa20",
- "sha2 0.10.3",
+ "sha2 0.10.5",
 ]
 
 [[package]]
@@ -3582,9 +3582,9 @@ dependencies = [
 
 [[package]]
 name = "sha2"
-version = "0.10.3"
+version = "0.10.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "899bf02746a2c92bf1053d9327dadb252b01af1f81f90cdb902411f518bc7215"
+checksum = "cf9db03534dff993187064c4e0c05a5708d2a9728ace9a8959b77bedf415dac5"
 dependencies = [
  "cfg-if 1.0.0",
  "cpufeatures",
@@ -4642,7 +4642,7 @@ dependencies = [
  "rusb",
  "serde",
  "serde_json",
- "sha2 0.10.3",
+ "sha2 0.10.5",
  "signature",
  "subtle",
  "thiserror",
